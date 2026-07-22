@@ -86,8 +86,8 @@ ownership rules, source attribution, complete-proof policy, and warning-free bui
 ## Authors, copyright, and provenance
 
 Files retain their original copyright and author headers. See [AUTHORS.md](./AUTHORS.md) for the
-repository's alphabetized author list and its copyright, authorship, and co-authorship policy; the
-individual source headers remain authoritative for file-level attribution.
+organizer and contributor lists and the repository's copyright, authorship, and co-authorship
+policy; the individual source headers remain authoritative for file-level attribution.
 
 ## License
 
