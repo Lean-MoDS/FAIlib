@@ -61,10 +61,11 @@ LEAN_NUM_THREADS=$(nproc) lake build
 LEAN_NUM_THREADS=$(nproc) lake build FAIlib.Probability.Process.Dudley
 ```
 
-To use this local repository from a neighboring Lake project:
+To use the `v4.32.0` release from another Lake project:
 
 ```lean
-require «FAIlib» from "../FAIlib"
+require «FAIlib» from git
+  "https://github.com/Lean-MoDS/FAIlib.git" @ "v4.32.0"
 ```
 
 Then import only the modules needed by the project:
@@ -73,9 +74,6 @@ Then import only the modules needed by the project:
 import FAIlib.Probability.Concentration.HansonWright
 import FAIlib.LearningTheory.UniformDeviation.Bounds
 ```
-
-After publication, the local path can be replaced by the repository's Git clone URL and a branch,
-tag, or commit revision.
 
 ## Contributing
 
